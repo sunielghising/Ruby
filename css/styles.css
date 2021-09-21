@@ -1,0 +1,66 @@
+
+
+/* Remove it */
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  padding-bottom: 3rem;
+}
+
+/* CUSTOMIZE THE CAROUSEL-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Declare heights because of positioning of img element */
+/* .carousel-item {
+  width: 718px;
+} */
+
+/* .w-100 {
+  width: 100% !important;
+  height: 100vh;
+} */
+
+.carousel-item > img {
+  max-height: 75vh;
+  object-fit: contain;
+}
+
+/* .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+} */
+
+.carousel-control-next,
+.carousel-control-prev , .carousel-indicators  {
+    filter: invert(100%);
+}
+
+
+.lead{
+  text-align: justify;
+}
+
+.btn-contact > i {
+  margin-right: 10px;
+}
